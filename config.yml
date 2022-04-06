@@ -105,6 +105,12 @@ menu:
       url: /tags/
       weight: 20
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
