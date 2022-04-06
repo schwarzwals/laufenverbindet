@@ -13,6 +13,26 @@ minify:
   disableXML: true
   minifyOutput: true
 
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+                - name: Categories
+                  url: categories/
+                  weight: 10
+
+
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -70,7 +90,9 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: My name is Adrian. I'm a runner. 
+    Content: >
+      My name is Adrian. I'm a runner.
+
 
   socialIcons:
     - name: instagram
