@@ -1,6 +1,6 @@
 ---
 cover:
-    image: "static/images/uploads/wmtpari-nv-3.jpg"
+    image: "wmtpari-nv-3.jpg"
     alt: "<alt text>"
     caption: "<text>"
     relative: true #
