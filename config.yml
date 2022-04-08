@@ -20,8 +20,8 @@ languages:
         menu:
             main:
                 - name: Home
-                  url: home
-                  weight: 5
+                  url: /
+                  weight: 1
                 - name: Tags
                   url: tags/
                   weight: 10
