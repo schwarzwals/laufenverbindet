@@ -19,18 +19,19 @@ languages:
         weight: 1
         menu:
             main:
+                - name: Home
+                  url: home
+                  weight: 5
+                - name: Tags
+                  url: tags/
+                  weight: 10
                 - name: Archive
                   url: archives
                   weight: 5
                 - name: Search
                   url: search/
                   weight: 10
-                - name: Tags
-                  url: tags/
-                  weight: 10
-                - name: Categories
-                  url: categories/
-                  weight: 10
+
 
 
 
