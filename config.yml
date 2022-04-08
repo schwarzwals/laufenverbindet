@@ -9,10 +9,32 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+
 minify:
   disableXML: true
   minifyOutput: true
 
+taxonomies:
+  category: categories
+  tag: tags
+
+menu:
+    main:
+      - name: Home
+        url: /
+        weight: 1
+      - name: About
+        url: /about/
+        weight: 2
+      - name: Tags
+        url: /tags/
+        weight: 3
+      - name: Archive
+        url: /archives/
+        weight: 4
+      - name: Search
+        url: /search/
+        weight: 5
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -98,17 +120,7 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
 
-menu:
-  main:
-    - name: Home
-      url: /
-      weight: 1
-    - name: Tags
-      url: /tags/
-    - name: Archive
-      url: /archives/
-    - name: Search
-      url: /search/
+
 
 outputs:
     home:
