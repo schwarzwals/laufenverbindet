@@ -96,24 +96,19 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
+
 menu:
   main:
-    - identifier: Home
-      name: home
+    - name: Home
       url: /
-      weight: 10
-    - identifier: tags
-      name: tags
+      weight: 1
+    - name: Tags
       url: /tags/
-      weight: 20
-    - identifier: Archive
-      name: archives
+    - name: Archive
       url: /archives/
-      weight: 20
-    - identifier: Search
-      name: search
+    - name: Search
       url: /search/
-      weight: 20
 
 outputs:
     home:
